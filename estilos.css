@@ -34,7 +34,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #333;untitled:Untitled-1
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -44,4 +44,38 @@ footer {
 }
 .centrar{
     margin-left: 100px;
+}
+
+.cabecera
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.contenedor
+{
+    width: 950px;
+    padding: 0 15PX 0 15PX;
+    margin: 0 auto;
+}
+.columna
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.columna-50
+{
+    width: 40%;
+}
+.columna-33
+{
+    width: 30%;
+}
+.justificar-texto
+{
+    text-align: justify;
 }
