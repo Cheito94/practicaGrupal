@@ -7,5 +7,30 @@
 </head>
 <body>
     <h1>Hola Mundo </h1>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDNPUHWUzlK-6E8wNgmxBYI9Uw3-rX9R1M",
+          authDomain: "practica-58dcb.firebaseapp.com",
+          databaseURL: "https://practica-58dcb-default-rtdb.firebaseio.com",
+          projectId: "practica-58dcb",
+          storageBucket: "practica-58dcb.appspot.com",
+          messagingSenderId: "217869800154",
+          appId: "1:217869800154:web:978b53c5d09e2da16f4be3",
+          measurementId: "G-193N9PN82M"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
